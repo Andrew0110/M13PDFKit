@@ -40,7 +40,7 @@
 /**
  The delegate that responds to page changes.
  */
-@property (nonatomic, strong) id<PDFKBasicPDFViewerSinglePageCollectionViewDelegate> singlePageDelegate;
+@property (nonatomic, weak) id<PDFKBasicPDFViewerSinglePageCollectionViewDelegate> singlePageDelegate;
 /**
  Display the given page on the screen. (By scrolling to it.)
  

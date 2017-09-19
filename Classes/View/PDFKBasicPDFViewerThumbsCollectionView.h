@@ -55,7 +55,7 @@
 /**
  The delegate that responds to page selection.
  */
-@property (nonatomic, strong) id<PDFKBasicPDFViewerThumbsCollectionViewDelegate> pageDelegate;
+@property (nonatomic, weak) id<PDFKBasicPDFViewerThumbsCollectionViewDelegate> pageDelegate;
 
 @end
 
